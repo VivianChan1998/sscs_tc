@@ -1,81 +1,27 @@
 {
+    "index": ["post20210430", "post20210413"],
     "posts": {
-        "drawing":{
-            "id":"drawing",
-            "imageURL":"https://i.imgur.com/TQfav4V.png",
-            "title":"Showcase website built for artists",
-            "content":"A delicate website that can be arranged by users themselves, to showcase their artwork, and even use it as an illustration portfolio.",
-            "md":"drawing.md"
+        "post20210430":{
+            "date":"2021/04/30",
+            "imgurl": "https://imgur.com/Y6vDxyb.jpg",
+            "title":"Intelligent Systems with Ultra-Wide Power-Performance Adaptation - Going Well beyond the Diminishing Returns of Voltage Scaling",
+            "content":["本次很榮幸邀請SSCS DL Program傑出講師，目前任職於新加坡National University of Singapore的Massimo Alioto教授演講。此次因新冠肺炎疫情關係，Alioto教授透過線上的方式演講，本會除了安排Webex的連結提供會員線上參與之外，也在臺大電機二館103室安排了實體場地，邀請在台大的會員及師生參加。當天線上有30位連線，台大現場亦有17位與會。",
+                "本次演講內容非常精彩，Alioto教授介紹了數位電路中可自動調節邏輯級數的新data path控制架構。不僅可使電路在最佳操作電壓下自動調節，達到平衡critical path的效果，更可以在相同操作電壓下對運算效能有進一步的提升。此新穎概念對於現代低功耗電子產品與應用來說是非常有潛力的技術。講者最後也展示了此技術使用在影像處理上的效果，即便操作在低SNR的環境下，其仍可使影像解析與還原出原始高SNR下才能達到的效果。會議最後，Alioto教授和與會者透過線上進行問答討論，與會者們受益良多。"
+            ],
+            "link": "活動連結",
+            "url": "https://drive.google.com/file/d/14IL8EhiR7cbghpekdUwMuEa6LANYYn0x/view?usp=sharing"
         },
-        "homexin": {
-            "id":"homexin",
-            "imageURL":"https://i.imgur.com/AHAwsXf.png",
-            "title":"Responsive web pages designed for hospitalized patients fo find certificated nursing assistant.",
-            "content":"We provide the service to provide immediate CNA-patient matching service, also accumulating matching history data to improve.",
-            "md":"homexin.md"
-        },
-        "splat": {
-            "id":"splat",
-            "imageURL": "https://i.imgur.com/bMEhWMg.png",
-            "title": "Splat.io, a web game bases on Splatoon",
-            "content": "Enjoy splashing colors and battling with others!",
-            "md":"splat.md"
-        },
-        "music": {
-            "id":"music",
-            "imageURL": "https://i.imgur.com/sst21Zr.png",
-            "title": "Department of Electrical Engineering's Concert 2017",
-            "content": "The annual concert in our department makes me feel like it a traditional Chinese New Year celebration.",
-            "md": "v_music.md"
-        },
-        "maker":{
-            "id": "maker",
-            "imageURL": "https://i.imgur.com/tVNRRer.png",
-            "title": "Maker club's recruiting power point 2018",
-            "content": "The power point that comes with the recruiting form of National Taiwan University Maker Club's.",
-            "md": "v_maker.md"
-        },
-        "ted":{
-            "id": "ted",
-            "imageURL": "https://i.imgur.com/iZrTksd.png",
-            "title": "TEDxNationalTaiwan University Exhibition 2019",
-            "content": "The main purpose of this exhibition, is to let the students who came, realize that other students, no matter what age or background, can be at a loss, be perplexed, in some period of life.",
-            "md": "ted.md"
-        },
-        "a_food1":{
-            "id": "a_food1",
-            "imageURL": "https://i.imgur.com/jIugGVw.png",
-            "title": "Taiwanese Food - Night Market",
-            "content": "Night market is filled with delicious Taiwanese food!",
-            "md": "a_food_nm.md"
-        },
-        "a_japan":{
-            "id": "a_japan",
-            "imageURL": "https://i.imgur.com/EPXpA0O.png",
-            "title": "Illustration of trip to Japan 2019/2",
-            "content": "A trip to Japan in Winter. Visited mainly Tokyo and Shizuoka.",
-            "md": "a_japan.md"
-        },
-        "a_little":{
-            "id": "a_little",
-            "imageURL": "https://i.imgur.com/jN2VbD5.png",
-            "title": "Some little illustrations of cute things...",
-            "content": "Some cute characters I created.",
-            "md": "a_little.md"
-        },
-        "a_life":{
-            "id": "a_life",
-            "imageURL": "https://i.imgur.com/lYaMMEI.png",
-            "title": "My life",
-            "content": "Some happy memories of my life!",
-            "md": "a_life.md"
+        "post20210413":{
+            "date":"2021/04/13",
+            "imgurl": "https://imgur.com/AF9Oxqm.jpg",
+            "title":"2021 ISSCC論文分享會",
+            "content":["國際固態電路研討會（International Solid-State Circuits Conference，ISSCC）是目前全球最權威的固態電路國際會議，堪稱「晶片奧林匹克大會」。會中錄用和發佈全球最新、最領先的晶片技術，同時也代表了積體電路產業的發展趨勢。在 ISSCC 會議上發表的論文數量和覆蓋領域，反映了在半導體技術領域的地位和發展水準。2021年年會於2月14日至2月18日已以線上虛擬會議方式舉行，本次研討會台灣共有12篇論文入選。",
+                "為了促進IC人才培養，IEEE SSCS Taipei Chapter與聯發科技、台大及陽明交大共同舉辦「2021 ISSCC論文分享會」，於2021年4月13日在台北(台大)及新竹(陽明交大)兩地視訊連線辦理。會中邀請ISSCC台灣區議程委員(產業界專家與學界教授)，針對2021 SSCC各項技術研究發展趨勢做精闢的介紹，全程以中文分析ISSCC論文特色、當前全球先進半導體與固態電路領域技術趨勢，並開放連線QA，當天相關領域之學界師生和業界朋友參與踴躍，台北出席120人，新竹出席110人，相信將有助於提升台灣產學界的研發能量。"
+            ],
+            "link": "活動連結",
+            "url": "https://drive.google.com/file/d/1D9X6pZrjANlFoDMbtj6YqIxSUZgdzGZX/view?usp=sharing"
         }
     },
-    "all": ["drawing", "homexin", "splat","music", "maker", "ted","a_food1", "a_japan", "a_little","a_life"],
-    "overview": ["drawing", "homexin","ted","a_food1"],
-    "web design": ["splat", "drawing", "homexin"],
-    "visual design": ["ted", "maker", "music"],
-    "artwork":["a_food1", "a_japan", "a_little", "a_life"],
     "about": {
         "Chairman": {
             "title": "Chairman",

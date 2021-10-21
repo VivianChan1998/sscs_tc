@@ -29,32 +29,6 @@ export default class App extends React.Component {
           <Route path="/about" render={()=><About />} history={history} />
           <Route path="/links" render={()=><Links/>} history={history} />
           <Route path="/contact" render={()=><Contact/>} history={history} />
-          {
-            data.all.map(e => {
-              var d = data.posts[e]
-              return <Route path={"/"+d.id} key={d.id} history={history} render={()=>{
-                return(
-                  <div className='wrapper'>
-                    <div>
-                      <Nav />
-                      <Menu/>
-                      <button className='back' onClick={() => history.goBack()}>
-                        {/*<Link to='/'>*/}
-                        <h3>{"<"} Back to Front Page</h3>
-                        {/*</Link>*/}
-                      </button>
-                      <MD mdURL={d.md}/>
-                      <button className='back' onClick={() => history.goBack()}>
-                          <h3>{"<"} Back to Front Page</h3>
-                      </button>
-                    </div>
-                  </div>
-                )
-                
-              }}></Route>
-            })
-          }
-          
         </Switch>
       </div>
     )

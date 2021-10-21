@@ -65,3 +65,49 @@
     font-size: 1.2rem;
     margin: 1vh 0 1vh 0;
 }
+
+.event-wrapper {
+    margin: 3vh 0vh 3vh 0vh;
+    padding: 5%;
+    border: 1px #2C3D55 solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.event-info-wrapper {
+    position: relative;
+    width: 55%;
+    margin-right: 5%;
+}
+.event-img-wrapper {
+    float: right;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.event-img-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.event-date {
+    margin: 0;
+    color: #7FB7BE;
+    font-size: 1rem;
+}
+
+.event-title {
+    margin: 0;
+    color: #2C3D55;
+    font-size: 1.5rem;
+}
+
+
+.event-wrapper p {
+    font-size: .8rem;
+    line-height: 150%;
+}
+

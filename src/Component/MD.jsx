@@ -7,6 +7,7 @@ export default class MD extends React.Component{
     this.state = {}
   }
   componentDidMount() {
+    console.log(this.props.mdURL)
     const readmePath = require(`../md/${this.props.mdURL}`);
     fetch(readmePath)
       .then(response => {
@@ -20,6 +21,7 @@ export default class MD extends React.Component{
   }
   render(){
     const { markdown } = this.state;
+    console.log(this.state)
     return (
       <div className='MD-container'>
         <section className="MD">

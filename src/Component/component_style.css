@@ -1,0 +1,144 @@
+#Header{
+    height: 8vh;
+    width: 90vw;
+    background-color: #2C3D55;
+    padding: 8vh 10vw 0 10vw;
+    margin: auto;
+    text-align: center;
+}
+#Header p{
+    color: rgb(85, 85, 85);
+    font-size: 1.2em;;
+}
+
+.Post-img-content{
+    margin: 1vw;
+    margin-bottom: 1vw;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    padding: 4vw;
+    border-radius: 0.5rem;
+    height: 52vh;
+    overflow: hidden;
+}
+.Post-img-content:hover{
+    border: 1px solid rgba(0, 0, 0, 0.788);
+}
+@media (max-width: 900px){
+    .Post-img-content{
+        height: 40vh;
+    }
+}
+.Post-img{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    /*text-align: center;*/
+}
+.Post-img img{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+@media (max-width: 930px){
+    .Post-img img {
+        padding-left: 0;
+        padding-right: 5%;
+    }
+}
+.Post-text{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 2%;
+    vertical-align: top;
+}
+
+@media (max-width: 560px){
+    .Post-img-content {height: auto;}
+    .Post-img-content > div > p{
+        display: none;
+    } 
+    .Post-img{
+        display: block;
+        position: relative;
+        min-height: 60%;
+        max-height: 80%;
+        width: 100%;
+    }
+    .Post-text{
+        position: relative;
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px){
+    #link-wrapper{
+        height: 12vh;
+    }
+    .Post-img-content > div > p{
+        display: none;
+    } 
+}
+
+@media (max-height: 580px){
+  #link-wrapper{
+    height: 22vh;
+  }
+  .Post-img-content > div > p{
+    display: none;
+} 
+}
+
+.MD-container{
+    padding: 2vh 15vw 2vh 15vw;
+}
+.MD-container h1{
+    font-weight: 700;
+    font-size: 2.2em;
+}
+.MD-container h3{
+    font-size: 1.8em;
+    color: #aaaaaa;
+}
+.MD-container h5{
+    font-weight: 900;
+    color: rgb(99, 99, 99);
+}
+.MD-container p, ul{
+    padding: 0 2em 3em 2em;
+    line-height: 1.8em;
+}
+.MD-container ul{
+    padding: 0.7em 2em 0.7em 2em;
+    line-height: 1.8em;
+}
+.MD-container div{
+    padding: 8vh 0 8vh 0;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: #646464;
+}
+
+.MD img{
+    position: relative;
+    max-width: 100%;
+}
+
+@media (max-width: 560px){
+    .MD-container{
+        padding: 2vh 5vw 2vh 5vw;
+    }
+}
+
+@media (max-height: 500px){
+    .Post-img-content{
+        height: 90vh;
+    }
+  }

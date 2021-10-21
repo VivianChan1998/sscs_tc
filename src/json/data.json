@@ -1,0 +1,79 @@
+{
+    "posts": {
+        "drawing":{
+            "id":"drawing",
+            "imageURL":"https://i.imgur.com/TQfav4V.png",
+            "title":"Showcase website built for artists",
+            "content":"A delicate website that can be arranged by users themselves, to showcase their artwork, and even use it as an illustration portfolio.",
+            "md":"drawing.md"
+        },
+        "homexin": {
+            "id":"homexin",
+            "imageURL":"https://i.imgur.com/AHAwsXf.png",
+            "title":"Responsive web pages designed for hospitalized patients fo find certificated nursing assistant.",
+            "content":"We provide the service to provide immediate CNA-patient matching service, also accumulating matching history data to improve.",
+            "md":"homexin.md"
+        },
+        "splat": {
+            "id":"splat",
+            "imageURL": "https://i.imgur.com/bMEhWMg.png",
+            "title": "Splat.io, a web game bases on Splatoon",
+            "content": "Enjoy splashing colors and battling with others!",
+            "md":"splat.md"
+        },
+        "music": {
+            "id":"music",
+            "imageURL": "https://i.imgur.com/sst21Zr.png",
+            "title": "Department of Electrical Engineering's Concert 2017",
+            "content": "The annual concert in our department makes me feel like it a traditional Chinese New Year celebration.",
+            "md": "v_music.md"
+        },
+        "maker":{
+            "id": "maker",
+            "imageURL": "https://i.imgur.com/tVNRRer.png",
+            "title": "Maker club's recruiting power point 2018",
+            "content": "The power point that comes with the recruiting form of National Taiwan University Maker Club's.",
+            "md": "v_maker.md"
+        },
+        "ted":{
+            "id": "ted",
+            "imageURL": "https://i.imgur.com/iZrTksd.png",
+            "title": "TEDxNationalTaiwan University Exhibition 2019",
+            "content": "The main purpose of this exhibition, is to let the students who came, realize that other students, no matter what age or background, can be at a loss, be perplexed, in some period of life.",
+            "md": "ted.md"
+        },
+        "a_food1":{
+            "id": "a_food1",
+            "imageURL": "https://i.imgur.com/jIugGVw.png",
+            "title": "Taiwanese Food - Night Market",
+            "content": "Night market is filled with delicious Taiwanese food!",
+            "md": "a_food_nm.md"
+        },
+        "a_japan":{
+            "id": "a_japan",
+            "imageURL": "https://i.imgur.com/EPXpA0O.png",
+            "title": "Illustration of trip to Japan 2019/2",
+            "content": "A trip to Japan in Winter. Visited mainly Tokyo and Shizuoka.",
+            "md": "a_japan.md"
+        },
+        "a_little":{
+            "id": "a_little",
+            "imageURL": "https://i.imgur.com/jN2VbD5.png",
+            "title": "Some little illustrations of cute things...",
+            "content": "Some cute characters I created.",
+            "md": "a_little.md"
+        },
+        "a_life":{
+            "id": "a_life",
+            "imageURL": "https://i.imgur.com/lYaMMEI.png",
+            "title": "My life",
+            "content": "Some happy memories of my life!",
+            "md": "a_life.md"
+        }
+    },
+    "all": ["drawing", "homexin", "splat","music", "maker", "ted","a_food1", "a_japan", "a_little","a_life"],
+    "overview": ["drawing", "homexin","ted","a_food1"],
+    "web design": ["splat", "drawing", "homexin"],
+    "visual design": ["ted", "maker", "music"],
+    "artwork":["a_food1", "a_japan", "a_little", "a_life"]
+}

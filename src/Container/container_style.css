@@ -1,0 +1,22 @@
+.sub-wrapper{
+    margin-top: 35vh;
+    padding: 2vh 5% 2vh 5%;
+}
+
+.sub-wrapper > h1 {
+    font-size: 2.5rem;
+    color: #2C3D55;
+}
+
+
+
+.links-wrapper{
+    height: 15vh;
+    margin: 5vh 10vh 0 0;
+    float: left;
+}
+
+.links-wrapper img{
+    position: relative;
+    height: 100%;
+}

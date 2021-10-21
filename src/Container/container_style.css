@@ -8,7 +8,17 @@
     color: #2C3D55;
 }
 
+.sub-wrapper p {
+    line-height: 200%;
+}
 
+.sub-wrapper p>em {
+    color: #9C3848;
+}
+
+.sub-wrapper p>b {
+    color: #2C3D55;
+}
 
 .links-wrapper{
     height: 15vh;
@@ -19,4 +29,39 @@
 .links-wrapper img{
     position: relative;
     height: 100%;
+}
+
+.member {
+    float: left;
+    height: 30vh;
+    width: 70vh;
+    margin: 5vh 10vh 5vh 0;
+}
+
+.member-img{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-right: 3%;
+}
+
+.member-img img{
+    position: relative;
+    height: 100%;
+}
+
+.member-info{
+    height: 100%;
+    overflow: hidden;
+}
+.member-info h3 {
+    margin: 0 0 1vh 0;
+    color: #7FB7BE;
+}
+.member-info h4 {
+    font-size: 1.2rem;
+    margin: 1vh 0 1vh 0;
 }

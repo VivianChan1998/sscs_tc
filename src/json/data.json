@@ -75,5 +75,52 @@
     "overview": ["drawing", "homexin","ted","a_food1"],
     "web design": ["splat", "drawing", "homexin"],
     "visual design": ["ted", "maker", "music"],
-    "artwork":["a_food1", "a_japan", "a_little", "a_life"]
+    "artwork":["a_food1", "a_japan", "a_little", "a_life"],
+    "about": {
+        "Chairman": {
+            "title": "Chairman",
+            "name_en": "Prof. Tsung-Hsien Lin",
+            "name_ch": "(林宗賢)",
+            "dept": "Department of Electrical Engineering",
+            "univ": "National Taiwan University",
+            "email":"thlin@ntu.edu.tw",
+            "tel":"+886-2-3366-3700 ext: 243"
+        },
+        "Vice_Chairman": {
+            "title": "Vice Chairman",
+            "name_en": "Prof. Tsung-Te Liu",
+            "name_ch": "(劉宗德)",
+            "dept": "Department of Electrical Engineering",
+            "univ": "National Taiwan University",
+            "email":"ttliu@ntu.edu.tw",
+            "tel":"+886-2-3366-1818"
+        },
+        "Treasurer": {
+            "title": "Treasurer",
+            "name_en": "Prof. Yu-Te Liao",
+            "name_ch": "(廖育德)",
+            "dept": "Department of Electrical and Computer Engineering",
+            "univ": "National Yang Ming Chiao Tung University",
+            "email":"yudoliao@g2.nctu.edu.tw",
+            "tel":"+886-3-516-6336"
+        },
+        "Secretary": {
+            "title": "Secretary",
+            "name_en": "Prof. Po-Hung Chen",
+            "name_ch": "(陳柏宏)",
+            "dept": "Department of Electronics Engineering",
+            "univ": "National Yang Ming Chiao Tung University",
+            "email":"hakko@nctu.edu.tw",
+            "tel":"+886-3-571-2121 ext: 54215"
+        },
+        "Assistant": {
+            "title": "Assistant",
+            "name_en": "Ya-Chuan Chen",
+            "name_ch": "(陳雅娟)",
+            "dept": "IEEE SSCS",
+            "univ": "Taipei Chapter",
+            "email":"yachuan@ntu.edu.tw",
+            "tel":"+886-2-3366-4677"
+        }
+    }
 }

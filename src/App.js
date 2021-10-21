@@ -8,6 +8,8 @@ import MD from './Component/MD.jsx'
 import data from './json/data.json'
 import Event from './Container/Event';
 import Links from './Container/Links'
+import About from './Container/About'
+import Contact from './Container/Contact';
 import img_logo from './img/logo.jpeg'
 
 var history = createBrowserHistory();
@@ -24,9 +26,9 @@ export default class App extends React.Component {
         
         <Switch>
           <Route exact path="/" render={()=><Event/>} history={history} />
-          <Route path="/about" render={()=><h1>about</h1>} history={history} />
+          <Route path="/about" render={()=><About />} history={history} />
           <Route path="/links" render={()=><Links/>} history={history} />
-          <Route path="/contact" render={()=><h1>contact</h1>} history={history} />
+          <Route path="/contact" render={()=><Contact/>} history={history} />
           {
             data.all.map(e => {
               var d = data.posts[e]
@@ -87,7 +89,7 @@ function Menu(props){
       <PageButton title="Event News" link='/' {...props}/>
       <PageButton title="About" link='/about' {...props}/>
       <PageButton title="Links" link='/links' {...props}/>
-      <PageButton title="contact" link='/contact' {...props}/>
+      <PageButton title="Contact" link='/contact' {...props}/>
     </div>
   )
 }

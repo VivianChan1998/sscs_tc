@@ -1,5 +1,6 @@
 {
-    "index": ["post20210430", "post20210413"],
+    "index": ["post20210430", "post20210413","post20210201","post20201118","post20201015",
+        "post20200814","post20200117","post20191203_1","post20191203_2","post20191121"],
     "posts": {
         "post20210430":{
             "date":"2021/04/30",
@@ -20,6 +21,83 @@
             ],
             "link": "活動連結",
             "url": "https://drive.google.com/file/d/1D9X6pZrjANlFoDMbtj6YqIxSUZgdzGZX/view?usp=sharing"
+        },
+        "post20210201":{
+            "date":"2021/02/01",
+            "imgurl": "https://imgur.com/LwLS35q.jpg",
+            "title":"A two-step ADC with statistical calibration",
+            "content":["本次很榮幸邀請到尤乙龍博士(Dr. Yi-Long Yu)演講，尤博士畢業於UC Davis，目前任職於美國矽谷Apple公司。因疫情關係，尤博士透過線上的方式演講，而SSCS Taipei Chapter除了安排Webex的連結提供會員線上參與之外，也在臺大電機二館103室安排了實體場地，邀請在台大的會員及師生一起參加。",
+            "演講內容以深入淺出的方式進行，尤博士首先介紹了整體two-step ADC的架構以及設計的考量，包含了第一級SAR ADC的實現，和第二級Time-domain ADC的電路架構，演講過程鉅細靡遺，完整的論述整個系統的優缺點。講者也揭示如何使用統計式的校正來進一步提升ADC的線性度表現，包含其背後的演算法，以及使用MATLAB來實現統計式校正。會議最後，尤博士和與會者透過線上問答討論，也對未來的ADC研究方向提出看法。"
+            ],
+            "link": "演講訊息",
+            "url": "https://drive.google.com/file/d/1BnnqblRMbE6xX_f__ihI6uDfQ3xgKhoF/view?usp=sharing"
+        },
+        "post20201118":{
+            "date":"2020/11/18",
+            "imgurl": "https://imgur.com/2fGiaSk.jpg",
+            "title":"2021 ISSCC國際固態電路研討會台灣記者會",
+            "content":["國際固態電路研討會ISSCC為國際半導體公司首次發表最新晶片之唯一國際學術研討會，主導全球先進半導體與固態電路領域未來發展方向。2021 ISSCC預計於2021年2月14日至2月18日以線上虛擬會議方式舉行，全世界同步參與。今年ISSCC台灣獲選12篇論文：台灣大學2篇、清華大學2篇、交通大學4篇、聯發科2篇、台積電2篇。本分會於2020年11月18日假台北喜來登大飯店彩蝶廳舉辦ISSCC 2021台灣記者會，由主席林宗賢教授主持，邀請到鈺創科技盧超群董事長、遠東區TPC等貴賓出席，提供全球半導體產業趨勢與台灣指標性技術發展重點總覽，及介紹2021 ISSCC台灣入選論文與大會年度論文之精華，並撥放前ISSCC主席/ISSCC執行委員會代表Dr. Jan Van der Spiegel事先錄製的歡迎辭，還有Far East officer 遠距連線同步參與記者會。",
+                "現場除了入選論文之成果海報展示以外，並展示多項研發實體成果，包括交通大學陳科宏教授團隊開發用於氮化鎵(GaN)充電器與新型驅動microLED顯示器的電源管理晶片、廖育德教授團隊的全整合無線傷口照護晶片。",
+                "記者來自遠播資訊CTIMES、民眾日報、商業週刊、產業人物、新唐人亞太電視、DIGITIMES、工商時報、公視、天下雜誌等。主辦單位於會後安排餐敘聯誼及交流。"
+            ],
+            "link": "",
+            "url": ""
+        },
+        "post20201015":{
+            "date":"2020/10/15",
+            "imgurl": "https://imgur.com/xYVvDuC.jpg",
+            "title":"A-SSCC 2020台灣記者會",
+            "content":["IEEE亞洲固態電路會議(IEEE A-SSCC)將於2020年11月9-11日於線上舉行，原定於日本廣島的實體會議因為疫情關係改為以虛擬形式進行，今年大會將展示固態電子和半導體領域最先進的積體電路與系統晶片設計。近年來由於人工智慧 (AI) 與物聯網 (IoT )的普及發展，造就市場渴求更深化融合的人工智慧物聯網 (AIoT) 網路，讓物體網裝置具備環境偵測與智慧學習的能力，因此今年度的主題聚焦在「Intelligent Chips for AIoT Era」，將針對半導體趨勢、AI、IoT、邊緣運算 (Edge Computing) 等主題進行深入探討。",
+            "台北分會特於10月15日假台大校友會館3A會議室舉辦A-SSCC 2020記者會，搶先介紹台灣區獲選論文。今年台灣在產學研界的熱切參與及大力推動下，在A-SSCC再創佳績，將於大會發表9篇論文，包括臺灣大學獲選1篇論文、交通大學5篇論文、成功大學3篇。",
+            "本屆記者會由台北分會主席暨台大教授林宗賢教授主辦，邀請今年度A-SSCC台灣區Keynote Speaker前科技部政務次長許有進博士致詞，亦邀請2020 A-SSCC大會議程主席張振豪教授、聯發科朱啟誠協理、交通大學陳柏宏教授分別介紹A-SSCC和分析A-SSCC今年入選論文；台灣大學汪重光教授及李泰成教授、楊家驤教授、劉宗德教授亦出席盛會，還有今年度所有獲選論文團隊應邀與會展示研究成果，並與現場媒體記者採訪交流，共同見證半導體的里程碑。"],
+            "link": "",
+            "url": ""
+        },
+        "post20200814":{
+            "date":"2020/08/14",
+            "imgurl": "",
+            "title":"國際電機電子工程師學會中華民國分會(IEEE Taipei Section) 109年碩、博士論文獎",
+            "content":["宗旨：為激勵國內IEEE台北分會學生會員對於相關領域研究工作之投入，尋找各專業領域明日之星，特設置碩、博士論文獎。",
+            "欲申請由SSCS Taipei Chapter推薦者，請申請人備妥以下資料，繳交電子檔至本支會 sscstpe@gmail.com",
+            "本支會109年度送件截止日：109/10/01 (四)","1. 申請人簡歷表 (PDF格式，格式不拘) 2. 畢業論文 (PDF格式) 3. 畢業證書 (PDF格式) 4. 指導教授或相關領域專家推薦函。(PDF格式，格式不拘) 5. IEEE 會員證明 (PDF格式) *提醒：必須是SSCS支會會員",
+            "備註：「IEEE中華民國分會碩、博士論文獎申請辦法」請參考附件。"
+            ],
+            "link": "附件",
+            "url": "https://drive.google.com/file/d/1KmMk2cg7QLgBJZ7GG3_vCiU7-SiNOw8P/view?usp=sharing"
+        },
+        "post20200117":{
+            "date":"2020/01/17",
+            "imgurl": "https://imgur.com/ETi8nGB.jpg",
+            "title":"ISSCC 2020 Speaker Rehearsal Program",
+            "content":["今年台灣在產學研界的熱切參與下獲選論文再創新高，SSCS Taipei Chapter依往例規劃Speaker Rehearsal Program，邀請各篇入選論文的報告者參與，以英文進行正式簡報，台北分會並準備與ISSCC現場相同的Marble Mouse供報告者模擬使用，同時依據論文領域與台灣區ISSCC議程委員之專長分組，給予報告者建議。"],
+            "link": "",
+            "url": ""
+        },
+        "post20191203_1":{
+            "date":"2019/12/03",
+            "imgurl": "https://imgur.com/TJFK4pX.jpg",
+            "title":"Binaural Hearing Aid System and the Intelligent Acoustic Signal Processing",
+            "content":["本次很榮幸邀請到SSCS Distinguished Lecturer中國北京清華大學(Tsinghua University, Beijing, China)的王志華教授(Prof. Zhihua Wang)至台灣大學演講。本次演講內容以深入淺出的方式進行，其內容首先介紹了助聽器的市場潛力與需求及技術的瓶頸，接著王教授分享他的團隊在助聽器系統上的創新，透過低功耗無線傳輸將助聽器系統裡複雜且耗能的訊號處理部分在手機上執行，實現低延遲、低功耗、高運算能力的助聽器系統，且為了使助聽器普及和考量使用者體驗，利用AI技術執行繁瑣的驗配流程達到客製化。會議最後，王教授和與會者問答討論，也勉勵現場的研究生持續努力才會成功。"],
+            "link": "活動連結",
+            "url": "https://drive.google.com/file/d/1mTbNF8iaZKCcCkUsV0vjfRRN2M9z3u5T/view?usp=sharing"
+        },
+        "post20191203_2":{
+            "date":"2019/12/03",
+            "imgurl": "https://imgur.com/cQPwvtd.jpg",
+            "title":"Design Challenges of RF transceiver satisfying the requirements of medical applications",
+            "content":["本次很榮幸邀請到SSCS Distinguished Lecturer中國北京清華大學(Tsinghua University, Beijing, China)的王志華教授(Prof. Zhihua Wang)至交通大學演講。王教授用簡單的言語介紹醫療器材產品中射頻電路設計考量與電路實現，並以實際醫療產品開發的例子說明艱深之應用理論，搭配投影片進行生動地演講，不論是投影片抑或是內容皆讓人感到耳目一新，同時也對醫療器材產品設計流程及注意事項初步的進行解說，令人獲益十足。演講尾聲，講者與聽眾彼此互動熱烈，最後在愉快的切磋與討論中順利地畫下圓滿句點。"],
+            "link": "",
+            "url": ""
+        },
+        "post20191121":{
+            "date":"2019/11/21",
+            "imgurl": "https://imgur.com/EIs4BuT.jpg",
+            "title":"2020 ISSCC國際固態電路研討會台灣區記者會",
+            "content":["2020國際固態電路研討會(ISSCC)將於 2020年2月16-20日於美國舊金山舉行。IEEE SSCS Taipei Chapter於2019年11月21日假臺大校友會館3A會議室舉辦ISSCC 2020臺灣區記者會，搶先介紹臺灣區獲選論文。",
+            "ISSCC素有晶片(IC)設計領域奧林匹克大會之稱。今年臺灣在產學研界的熱切參與下再創新高，共獲選22篇論文，學界部分共獲選12篇論文，分別由臺灣大學3篇論文、清華大學獲選5篇論文、交通大學1篇論文、成功大學2篇論文、元智大學1篇論文；業界部分共10篇論文獲選，分別為聯發科6篇論文、台積電2篇論文、立錡科技1篇、光程研創1篇論文入選。今年台灣區獲選篇數僅次於美國、韓國、與大陸(包含香港及澳門)，榮居全球第四。",
+            "記者會中除了介紹2020 ISSCC臺灣入選論文與大會年度論文之精華選萃外，也邀請到鈺創科技盧超群董事長以及ISSCC亞太地區主席Prof. Makoto Takamiya等貴賓蒞臨出席，提供全球半導體產業趨勢與臺灣指標性技術發展重點總覽。另外，台灣入選論文作者皆應邀出席記者會為論文做簡介，並跟與會來賓以及媒體交流。"],
+            "link": "",
+            "url": ""
         }
     },
     "about": {

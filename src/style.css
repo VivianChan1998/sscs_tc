@@ -1,11 +1,28 @@
 #top {
     position: absolute;
     top: 0;
-    height: 35vh;
+    height: 40vh;
     background-image: url(./img/bg.jpeg);
     background-size: cover;
     background-position-y: center;
 }
+
+#top-logos {
+    overflow: hidden;
+    height: 5vh;
+    background-color: #1c2531;
+}
+
+#top-logos img {
+    position: relative;
+    height: 80%;
+    margin: .5vh 0 1vh 1%;
+    float: left;
+    opacity: .7;
+    
+}
+
+
 #Nav{
     display: inline-block;
     width: 100vw;
@@ -21,8 +38,9 @@
 }
 
 #Nav h1{
-    color: #D3F3EE;
+    color: #e4fffb;
     margin-left: 3vw;
+    filter: drop-shadow(0px 0px 3px #141f2e);
 }
 
 #link-wrapper{

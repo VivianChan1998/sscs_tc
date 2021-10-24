@@ -21,7 +21,7 @@ export default class Event extends React.Component{
 function Events(props){
     return(
         <div className='event-wrapper'>
-            <div className="event-info-wrapper">
+            <div className="event-info-wrapper" style={props.data.imgurl===''? {width: "100%"}:{}}>
                 <h2 className='event-date'>
                     {props.data.date}
                 </h2>
@@ -41,10 +41,7 @@ function Events(props){
                 </p>
                 <a href={props.data.url} target="_blank">{props.data.link}</a>
             </div>
-            
-
-            
-            <div className="event-img-wrapper">
+            <div className="event-img-wrapper" style={props.data.imgurl===''? {width: 0}:{}}>
                 <img src={props.data.imgurl} />
             </div>
         </div>

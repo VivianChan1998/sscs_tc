@@ -11,6 +11,8 @@ import Links from './Container/Links'
 import About from './Container/About'
 import Contact from './Container/Contact';
 import img_logo from './img/logo.jpeg'
+import logo_ieee from './img/top-logos/ieee.png'
+import logo_sscs from './img/top-logos/scss.png'
 
 var history = createBrowserHistory();
 
@@ -20,6 +22,10 @@ export default class App extends React.Component {
     return(
       <div className='wrapper'>
         <div id="top">
+          <div id='top-logos'>
+            <img src={logo_ieee} />
+            <img src={logo_sscs} />
+          </div>
           <Nav />
           <Menu {...this.props}/>
         </div>
@@ -30,20 +36,9 @@ export default class App extends React.Component {
           <Route path="/links" render={()=><Links/>} history={history} />
           <Route path="/contact" render={()=><Contact/>} history={history} />
         </Switch>
+
       </div>
     )
-  }
-}
-
-class Main extends React.Component {
-  render(){
-    return (
-      <div className='wrapper'>
-          <Nav />
-          <Menu {...this.props}/>
-          
-      </div>
-    );
   }
 }
 
@@ -51,7 +46,7 @@ function Nav(){
   return(
     <div id="Nav">
           <Link to='/'>
-            <h1>IEEE SSCS Taipei Chapter</h1>
+            <h1>IEEE Solid-State Circuits Society, Taipei Chapter</h1>
           </Link>
     </div>
   )

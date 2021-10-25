@@ -62,9 +62,10 @@
     text-decoration: none;
     margin-top: 0;
 }
-.link:hover{
-    transform: scale(1.02);
+.link:hover {
+    transform: scale(1.05);
 }
+
 .link-active:after{
     position: relative;
     margin: auto;

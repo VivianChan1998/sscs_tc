@@ -6,7 +6,8 @@ import './style.css'
 import Overview from './Container/OverView'
 import MD from './Component/MD.jsx'
 import data from './json/data.json'
-import Event from './Container/Event';
+import Events from './Component/Events'
+import EventNews from './Container/EventNews';
 import Links from './Container/Links'
 import About from './Container/About'
 import Contact from './Container/Contact';
@@ -31,10 +32,15 @@ export default class App extends React.Component {
         </div>
         
         <Switch>
-          <Route exact path="/" render={()=><Event/>} history={history} />
+          <Route exact path="/" render={()=><EventNews/>} history={history} />
           <Route path="/about" render={()=><About />} history={history} />
           <Route path="/links" render={()=><Links/>} history={history} />
           <Route path="/contact" render={()=><Contact/>} history={history} />
+          {
+            data['index'].map( e => 
+              <Route path={`/${e}`} render={()=><Events data={data.posts[e]} />} history={history} />
+            )
+          }
         </Switch>
 
       </div>
@@ -78,4 +84,3 @@ function PageButton(props){
     </Link>
   )
 }
-

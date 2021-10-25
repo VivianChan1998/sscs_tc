@@ -142,3 +142,12 @@
         height: 90vh;
     }
   }
+
+  .event-back{
+      position: relative;
+      margin: 5vh 0 5vh 5%;
+  }
+
+  .event-back a{
+    color: #aaaaaa;
+  }

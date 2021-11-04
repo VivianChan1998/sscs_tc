@@ -1,8 +1,10 @@
 {
     "index": ["post20210430", "post20210413","post20210201","post20201118","post20201015",
         "post20200814","post20200117","post20191203_1","post20191203_2","post20191121"],
+    "tags": ["Technical Talks", "Workshop", "Press Conference", "Awards"],
     "posts": {
         "post20210430":{
+            "tag": "Technical Talks",
             "date":"2021/04/30",
             "imgurl": "https://imgur.com/Y6vDxyb.jpg",
             "title":"Intelligent Systems with Ultra-Wide Power-Performance Adaptation - Going Well beyond the Diminishing Returns of Voltage Scaling",
@@ -13,6 +15,7 @@
             "url": "https://drive.google.com/file/d/14IL8EhiR7cbghpekdUwMuEa6LANYYn0x/view?usp=sharing"
         },
         "post20210413":{
+            "tag": "Press Conference",
             "date":"2021/04/13",
             "imgurl": "https://imgur.com/AF9Oxqm.jpg",
             "title":"2021 ISSCC論文分享會",
@@ -23,6 +26,7 @@
             "url": "https://drive.google.com/file/d/1D9X6pZrjANlFoDMbtj6YqIxSUZgdzGZX/view?usp=sharing"
         },
         "post20210201":{
+            "tag": "Technical Talks",
             "date":"2021/02/01",
             "imgurl": "https://imgur.com/LwLS35q.jpg",
             "title":"A two-step ADC with statistical calibration",
@@ -33,6 +37,7 @@
             "url": "https://drive.google.com/file/d/1BnnqblRMbE6xX_f__ihI6uDfQ3xgKhoF/view?usp=sharing"
         },
         "post20201118":{
+            "tag": "Press Conference",
             "date":"2020/11/18",
             "imgurl": "https://imgur.com/2fGiaSk.jpg",
             "title":"2021 ISSCC國際固態電路研討會台灣記者會",
@@ -44,6 +49,7 @@
             "url": ""
         },
         "post20201015":{
+            "tag": "Press Conference",
             "date":"2020/10/15",
             "imgurl": "https://imgur.com/xYVvDuC.jpg",
             "title":"A-SSCC 2020台灣記者會",
@@ -54,6 +60,7 @@
             "url": ""
         },
         "post20200814":{
+            "tag": "Awards",
             "date":"2020/08/14",
             "imgurl": "",
             "title":"國際電機電子工程師學會中華民國分會(IEEE Taipei Section) 109年碩、博士論文獎",
@@ -66,6 +73,7 @@
             "url": "https://drive.google.com/file/d/1KmMk2cg7QLgBJZ7GG3_vCiU7-SiNOw8P/view?usp=sharing"
         },
         "post20200117":{
+            "tag": "Workshop",
             "date":"2020/01/17",
             "imgurl": "https://imgur.com/ETi8nGB.jpg",
             "title":"ISSCC 2020 Speaker Rehearsal Program",
@@ -74,6 +82,7 @@
             "url": ""
         },
         "post20191203_1":{
+            "tag": "Technical Talks",
             "date":"2019/12/03",
             "imgurl": "https://imgur.com/TJFK4pX.jpg",
             "title":"Binaural Hearing Aid System and the Intelligent Acoustic Signal Processing",
@@ -82,6 +91,7 @@
             "url": "https://drive.google.com/file/d/1mTbNF8iaZKCcCkUsV0vjfRRN2M9z3u5T/view?usp=sharing"
         },
         "post20191203_2":{
+            "tag": "Technical Talks",
             "date":"2019/12/03",
             "imgurl": "https://imgur.com/cQPwvtd.jpg",
             "title":"Design Challenges of RF transceiver satisfying the requirements of medical applications",
@@ -90,6 +100,7 @@
             "url": ""
         },
         "post20191121":{
+            "tag": "Press Conference",
             "date":"2019/11/21",
             "imgurl": "https://imgur.com/EIs4BuT.jpg",
             "title":"2020 ISSCC國際固態電路研討會台灣區記者會",

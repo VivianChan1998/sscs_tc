@@ -4,7 +4,7 @@ import img_chair from '../img/about/chair.jpeg'
 import img_vice_chair from '../img/about/vice_chair.jpeg'
 import img_treasurer from '../img/about/treasurer.png'
 import img_secretary from '../img/about/secretary.jpeg'
-import img_assistant from '../img/about/assistant.jpeg'
+import img_assistant from '../img/about/assistant.jpg'
 
 
 export default class About extends React.Component{

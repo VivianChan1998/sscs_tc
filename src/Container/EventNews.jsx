@@ -3,26 +3,53 @@ import {Link} from 'react-router-dom'
 import data from '../json/data.json'
 
 
-export default class EventNews extends React.Component{
-    render(){
-        return(
-            <div className='sub-wrapper'>
-                <h1>Event and News</h1>
-                {
-                    data['index'].map( e => <EventTitle id={e} /> )
-                }
-            </div>
-        )
-    }
+export default function EventNews(props){
+
+    var c = data['posts']
+    var allPost = []
+    for(var i in c) allPost.push(c[i]);
+
+    var t = data['tags']
+    var tags = []
+    for(var i in t) tags.push(t[i]);
+
+    var sortedPost = tags.map( e => {
+        return allPost.filter( d => {
+            console.log(d.tag)
+            return d.tag === e 
+        })
+    })
+
+    console.log(sortedPost)
+
+    return(
+        <div className='sub-wrapper'>
+            <h1>Event and News</h1>
+            {
+                tags.map( (e, id) => <EventTypes tag={e} posts={sortedPost[id]} /> )
+            }
+        </div>
+    )
+}
+
+function EventTypes(props) {
+    console.log(props)
+    return(
+        <div className="eventnews-type">
+            <h3>{props.tag}</h3>
+            {
+                props.posts.map( e => <EventTitle data={e} /> )
+            }
+        </div>
+    )
 }
 
 function EventTitle(props) {
-    var d = data['posts'][props.id]
     return(
         <div className='eventnews'>
-            <Link to={`/${props.id}`}>
-                <span className='eventnews-date'> {d["date"]} </span>
-                <span className='eventnews-title'> {d["title"]} </span>
+            <Link to={`/${props.data["id"]}`}>
+                <span className='eventnews-date'> {props.data["date"]} </span>
+                <span className='eventnews-title'> {props.data["title"]} </span>
             </Link>
         </div>
     )

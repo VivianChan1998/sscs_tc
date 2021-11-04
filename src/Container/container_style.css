@@ -9,6 +9,20 @@
     color: #2C3D55;
 }
 
+.eventnews-type{
+    margin-top: 5vh;
+}
+
+.eventnews-type > h3 {
+    width:fit-content;
+    color: #2C3D55;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #7fb7be5d;
+    text-decoration-thickness: 5px;
+
+}
+
 .sub-wrapper p {
     line-height: 200%;
 }

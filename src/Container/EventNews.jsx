@@ -20,8 +20,6 @@ export default function EventNews(props){
         })
     })
 
-    console.log(sortedPost)
-
     return(
         <div className='sub-wrapper'>
             <h1>Event and News</h1>
@@ -33,7 +31,6 @@ export default function EventNews(props){
 }
 
 function EventTypes(props) {
-    console.log(props)
     return(
         <div className="eventnews-type">
             <h3>{props.tag}</h3>
@@ -45,6 +42,7 @@ function EventTypes(props) {
 }
 
 function EventTitle(props) {
+    console.log(props)
     return(
         <div className='eventnews'>
             <Link to={`/${props.data["id"]}`}>
